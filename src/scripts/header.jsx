@@ -5,9 +5,9 @@ function Header(){
     return ( 
     <header>
         <h1>Reality</h1>
-        <nav class="navbar">
-            <ul class="nvabar--list">
-                <li>Step one</li>
+        <nav className="navbar">
+            <ul className="nvabar--list">
+                <li><a href="../Clicker/clicker.jsx">Clicker</a></li>
                 <li>step two</li>
                 <li>Step three</li>
             </ul>
