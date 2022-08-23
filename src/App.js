@@ -7,8 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p className="body--centre">
-          <script src="./scripts/buttonChanger.jsx"></script>
-          This should be replaced when this <button className="Bbutton">button</button> is pressed
+          This worlds a little broken, isn't it?
         </p>
       </header>
     </div>
