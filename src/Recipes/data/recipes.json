@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Solomon's Meal",
+        "Ingredients": [
+            {"name":"Bread", "amount": 3, "measurement": "500g"},
+            {"name":"Gravy", "amount": 1, "measurement": "250ml"},
+            {"name":"Meat", "amount": 5, "measurement": "250g"}
+        ],
+        "steps": [
+            "Make sure Solomon is asleep before preparing.",
+            "Create dish at least 50 metres away upwind.",
+            "Firstly create the gravy in a large bowl and mix in the bread.",
+            "Next make sure the meat is not moving",
+            "Mix all ingredients and place in a bowl.",
+            "Leave contents where it is.",
+            "Solomon will come get his food when's he wakes up."
+        ]
+    },{
+        "name": "Heimurldong's Feast",
+        "Ingredients": [
+            {"name":"Honey", "amount": 1000, "measurement": "5 Tonnes"},
+            {"name":"Bread", "amount": 200, "measurement": "100KG"},
+            {"name":"Apples", "amount": 150, "measurement": "20KG"},
+            {"name":"Matches", "amount": 2, "measurement": "1g"},
+            {"name":"Timber", "amount": 30, "measurement": "5KG"}
+        ],
+        "steps" : [
+            "Place timber in circle to hold all ingredients inside.",
+            "Next spread bread evenly inside the circle.",
+            "Place apples ontop of the bread, dipping in honey for adhesion.",
+            "Once all apples are placed, pour the rest of the honey on the ingredients.",
+            "Finally: Set alight and leave immediately."
+        ]
+    }
+]

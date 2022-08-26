@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Header from './scripts/header';
-import Footer from './scripts/footer'
+import Footer from './scripts/footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,7 +13,11 @@ root.render(
     <App />
     <Footer />
   </React.StrictMode>
-);
+)
+
+
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

@@ -7,7 +7,7 @@ function Header(){
         <h1>Reality</h1>
         <nav className="navbar">
             <ul className="nvabar--list">
-                <li><a href="../Clicker/clicker.jsx">Clicker</a></li>
+                <li>Clicker</li>
                 <li>step two</li>
                 <li>Step three</li>
             </ul>

@@ -1,35 +1,50 @@
-import "./clicker"
-let ReactDOM = require('react-dom')
+import React, {useState,useEffect} from "react"
 
-function ClickerHeader() {
+const Clicker = () => {
+    
+    const [count, setCount] = useState(0);
+
+    useEffect(() => {
+        document.title = "Clicker";
+        return(() => console.log(`Final count: ${count}`));
+    });
+
+    let mileStones= (count) => {
+        if(count <= 99){
+            return (
+                <p>You have not reached a milestone yet</p>
+            );
+        }else if(count >= 100 && count <= 999){
+            return (
+                <p>You have reached the milestone of {count} clicks</p>
+            );
+        } else if(count >= 1000 && count <= 9999){
+            return (
+                <p>You have reached the milestone of {count} clicks</p>
+            );
+        } else if(count >= 10000){
+            return (
+                <>
+                <p>You have clicked over {count-1} times...</p>
+                <p>Does your finger hurts?</p>
+                </>
+            )
+        }
+    }
+    
     return (
-        <head>
-            <meta charset="utf-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <title>Clicker</title>
-        <header>
-
-            <h1>Clicker Page</h1>
-            <nav className="navbar">
-            <ul className="nvabar--list">
-                    <li>Step one</li>
-                    <li>step two</li>
-                    <li>Step three</li>
-                </ul>
-            </nav>
-        </header>
-        </head>
-    )
-}
-
-function ClickerBody(){
-    <body>
-        <script src="./clicker.js"></script>
-        <p>This is your count</p>
-        <p id="counter"></p>
-    </body>
+        <>
+            <p>You have clicked {count} times!</p>
+            <button onClick={(() => setCount(count=> count+1))}>
+            +1
+            </button>
+            <p>{mileStones}</p>
+        </>
+    );
 }
 
 
 
-module.exports = {ClickerHeader,ClickerBody};
+
+
+export default Clicker;
